@@ -7,5 +7,51 @@
     <script slot="script" defer></script>
     <title>Basic calculator</title>
   </head>
-  <body></body>
+  <body>
+    <div class="calculator-wrapper">
+      <div class="calculator-header">
+        <div class="calculator-display">0</div>
+        <button class="button button--back">&leftarrow;</button>
+        <div class="calculator-buttons">
+          <div class="row">
+            <button data-value="7" class="button button--num">7</button>
+            <button data-value="8" class="button button--num">8</button>
+            <button data-value="9" class="button button--num">9</button>
+            <button data-value="/" class="button button--binary">
+              &divide;
+            </button>
+            <button data-value="*" class="button button--binary">
+              &times;
+            </button>
+          </div>
+          <div class="row">
+            <button data-value="4" class="button button--num">4</button>
+            <button data-value="5" class="button button--num">5</button>
+            <button data-value="6" class="button button--num">6</button>
+            <button data-value="+" class="button button--binary">&plus;</button>
+            <button data-value="-" class="button button--binary">
+              &minus;
+            </button>
+          </div>
+          <div class="row">
+            <button data-value="1" class="button">1</button>
+            <button data-value="2" class="button">2</button>
+            <button data-value="3" class="button">3</button>
+            <button data-value="sqrt" class="button button--unary">
+              &Sqrt;x
+            </button>
+            <button data-value="clear" class="button button--clear">c</button>
+          </div>
+          <div class="row">
+            <button data-value="point" class="button button--unary">.</button>
+            <button data-value="0" class="button button--num">0</button>
+            <button data-value="unary-sign" class="button button--unary">
+              &PlusMinus;
+            </button>
+            <button data-value="=" class="button button--execute">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
